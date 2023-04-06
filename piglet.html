@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Piglet</title>
+	<style type="text/css">
+		body{
+	background-color: #65DA99;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.leftcolumn{
+	float: left;
+	width:60%;
+	padding: 5px;
+}
+
+.rightcolumn{
+	vertical-align: text-top;
+	float: right;
+	width:40%;
+	padding: 5px;
+}
+/*Clearfix (clear floats)*/
+.row::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+	</style>>
+</head>
+<body>
+
+	<header>
+		<div class="float-container">
+			<div class="float-child">
+				<div class="rightcolumn">
+					<h1 style="color: magenta; font: fantasy;">Hi! I'm Piglet!</h1>
+					<body style="font: monospace; color: hotpink;">The things that make me different are the things that make me me.</body>
+				</div>
+			
+			<div class="float-child">
+				<div class="leftcolumn">
+					<img src="img/piglet-avatar.jpg"alt="Avatar"> 
+				</div>
+			</div>
+		</div>
+	</header>
+
+</body>
+</html>
